@@ -1,5 +1,14 @@
+/* Pagina incial de apresentação do projeto */
+center{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
 .button{
-    background-color: #ffffff; /* Green */
+    background-color: #ffffff;
     border: none;
     padding: 15px;
     text-align: center;
