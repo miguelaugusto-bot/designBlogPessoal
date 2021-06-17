@@ -1,0 +1,75 @@
+.button{
+    background-color: #ffffff; /* Green */
+    border: none;
+    padding: 15px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.button{
+    background-color: white; 
+    color: #f3a348; 
+    border: 2px solid #f3a348;
+}
+
+.button1:hover{
+    background-color: #f3a348;
+    color: #ffffff;
+    box-shadow: 0 6px 16px 0 rgba(219, 152, 64, 0.514), 0 12px 25px 0 rgba(245, 168, 67,0.19);
+}
+
+.coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coluna form{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    flex-direction: column; 
+}
+
+.coluna form label{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div{
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#menu li a:hover{
+    color: brown;
+}
+footer{
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.redes img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+
+}
