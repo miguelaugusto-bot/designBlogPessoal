@@ -3,6 +3,7 @@ body{
     background-image: url("/assets/img/background.png");
     height: auto;
     width: auto;
+    overflow-x: hidden;
 }
 
 .center{
@@ -13,13 +14,17 @@ body{
     justify-content: center;
     padding: 5%;
     flex-direction: column; 
+    border-radius: 3px;
 }
 
 footer{
+    display: flex;
     position:absolute;
     bottom: 0;
-    width:100%;
-    text-align: center;
+    width: 100%;
+    flex-flow: wrap column;
+   
+    
 }
 
 .button{
@@ -47,7 +52,6 @@ footer{
 .redes{
     display: flex;
     justify-content: center;
-    
 }
 
 .redes img{
@@ -55,6 +59,11 @@ footer{
     height: 50px;
     padding: 5px;
 
+}
+
+#direitos{
+    display: flex;
+    justify-content: center;
 }
 
 /*Pagina de login/cadastro */
@@ -82,18 +91,19 @@ div{
     align-items: center;
 }
 
-#menu li{
+#menu-button li{
     display: inline;
     padding: 15px;
-    
+    background-color: #ffffff;
+    border-radius: 0px 0px 3px 3px;
 }
 
-#menu li a {
+#menu-button li a {
     text-decoration: none;
     color: black;
     font-size: 15px;
 }
 
-#menu li a:hover{
+#menu-button li a:hover{
     color: brown;
 }
